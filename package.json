@@ -1,0 +1,19 @@
+{
+  "name": "jenkins-workshop-app1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "supertest": "^4.0.2"
+  }
+}
